@@ -24,6 +24,7 @@ app.use(express.static('public'))
 app.post("/email", (req, res) => {
 
     console.log("Post route is working.")
+    console.log(process.env.EMAIL, process.env.PASSWORD)
 
     const mailOptions = {
         from: process.env.EMAIL,
