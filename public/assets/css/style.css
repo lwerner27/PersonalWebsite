@@ -1,0 +1,85 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Share');
+
+/* Element Tags */
+html {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url("../images/Background.png");
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+ul {
+    font-family: "Lora"
+}
+
+/* Class Selectors */
+.input-field label {
+    color: black;
+}
+
+.input-field input[type=text]:focus + label {
+    color: #6a1b9a !important;
+}
+
+.input-field input:focus {
+    border-bottom: 1px solid #6a1b9a !important;
+    box-shadow: 0 1px 0 0 #6a1b9a !important
+}
+
+.input-field textarea:focus + label {
+    color: #6a1b9a !important;
+}
+
+.input-field textarea:focus {
+    border-bottom: 1px solid #6a1b9a !important;
+    box-shadow: 0 1px 0 0 #6a1b9a !important
+}
+
+.parallax-container {
+    height: 350px;
+}
+
+.section-header {
+    border-bottom: solid;
+    font-family: "Share"
+}
+
+.slide {
+    min-height: 100vh;
+}
+
+
+.title {
+    font-family: "Share";
+    font-size: 2.5em;
+}
+
+/* ID Selectors */
+#form-col {
+    background-color: white;
+}
+
+#message {
+    height: 100px;
+}
+
+#slide-1 {
+    margin-top: 16px;
+}
+
+#submit-btn {
+    margin-left: 10px
+}
+
+#summary {
+    font-family: "Lora"
+}
